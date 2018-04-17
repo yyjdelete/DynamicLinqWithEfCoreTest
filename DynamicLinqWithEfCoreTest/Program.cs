@@ -37,7 +37,7 @@ namespace DynamicLinqWithEfCoreTest
                 context.SaveChanges();
             }
 
-            for (var i = 0; i <= 1_000; i++)
+            for (var i = 0; i <= 100_000; i++)
             {
                 using (var context = new TestContext())
                 {
@@ -48,7 +48,7 @@ namespace DynamicLinqWithEfCoreTest
             Console.WriteLine(sw.Elapsed);
             sw.Restart();
 
-            for (var i = 0; i <= 1_000; i++)
+            for (var i = 0; i <= 100_000; i++)
             {
                 using (var context = new TestContext())
                 {

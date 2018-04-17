@@ -20,3 +20,13 @@ C:\Users\acmajia\Documents\GitHub\DynamicLinqWithEfCoreTest\DynamicLinqWithEfCor
 C:\Users\acmajia\Documents\GitHub\DynamicLinqWithEfCoreTest\DynamicLinqWithEfCoreTest\obj\Debug\netcoreapp2.0\DynamicLinqWithEfCoreTest.AssemblyInfo.cs
 C:\Users\acmajia\Documents\GitHub\DynamicLinqWithEfCoreTest\DynamicLinqWithEfCoreTest\obj\Debug\netcoreapp2.0\DynamicLinqWithEfCoreTest.dll
 C:\Users\acmajia\Documents\GitHub\DynamicLinqWithEfCoreTest\DynamicLinqWithEfCoreTest\obj\Debug\netcoreapp2.0\DynamicLinqWithEfCoreTest.pdb
+C:\Code\Source Code\DynamicLinqWithEfCoreTest\DynamicLinqWithEfCoreTest\bin\Debug\netcoreapp2.0\DynamicLinqWithEfCoreTest.deps.json
+C:\Code\Source Code\DynamicLinqWithEfCoreTest\DynamicLinqWithEfCoreTest\bin\Debug\netcoreapp2.0\DynamicLinqWithEfCoreTest.runtimeconfig.json
+C:\Code\Source Code\DynamicLinqWithEfCoreTest\DynamicLinqWithEfCoreTest\bin\Debug\netcoreapp2.0\DynamicLinqWithEfCoreTest.runtimeconfig.dev.json
+C:\Code\Source Code\DynamicLinqWithEfCoreTest\DynamicLinqWithEfCoreTest\bin\Debug\netcoreapp2.0\DynamicLinqWithEfCoreTest.dll
+C:\Code\Source Code\DynamicLinqWithEfCoreTest\DynamicLinqWithEfCoreTest\bin\Debug\netcoreapp2.0\DynamicLinqWithEfCoreTest.pdb
+C:\Code\Source Code\DynamicLinqWithEfCoreTest\DynamicLinqWithEfCoreTest\obj\Debug\netcoreapp2.0\DynamicLinqWithEfCoreTest.csproj.CoreCompileInputs.cache
+C:\Code\Source Code\DynamicLinqWithEfCoreTest\DynamicLinqWithEfCoreTest\obj\Debug\netcoreapp2.0\DynamicLinqWithEfCoreTest.AssemblyInfoInputs.cache
+C:\Code\Source Code\DynamicLinqWithEfCoreTest\DynamicLinqWithEfCoreTest\obj\Debug\netcoreapp2.0\DynamicLinqWithEfCoreTest.AssemblyInfo.cs
+C:\Code\Source Code\DynamicLinqWithEfCoreTest\DynamicLinqWithEfCoreTest\obj\Debug\netcoreapp2.0\DynamicLinqWithEfCoreTest.dll
+C:\Code\Source Code\DynamicLinqWithEfCoreTest\DynamicLinqWithEfCoreTest\obj\Debug\netcoreapp2.0\DynamicLinqWithEfCoreTest.pdb
