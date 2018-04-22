@@ -11,25 +11,23 @@ namespace DynamicLinqWithEfCoreTest
     {
         static void Main(string[] args)
         {
-            var list = new List<Person>();
-
-            list.Add(new Person
+            var list = new List<Person>
             {
-                Age = 1,
-                EnglishName = "sadfasdf",
-                Id = Guid.NewGuid(),
-                Name = "tom"
-            });
-
-            list.Add(new Person
-            {
-                Age = 2,
-                EnglishName = "ddddd",
-                Id = Guid.NewGuid(),
-                Name = "jerry"
-            });
-
-            var sw = Stopwatch.StartNew();
+                new Person
+                {
+                    Age = 1,
+                    EnglishName = "sadfasdf",
+                    Id = Guid.NewGuid(),
+                    Name = "tom"
+                },
+                new Person
+                {
+                    Age = 2,
+                    EnglishName = "ddddd",
+                    Id = Guid.NewGuid(),
+                    Name = "jerry"
+                }
+            };
 
             using (var context = new TestContext())
             {
@@ -37,7 +35,11 @@ namespace DynamicLinqWithEfCoreTest
                 context.SaveChanges();
             }
 
-            for (var i = 0; i <= 100_000; i++)
+            const int num = 100_000;
+
+            var sw = Stopwatch.StartNew();
+
+            for (var i = 0; i < num; i++)
             {
                 using (var context = new TestContext())
                 {
@@ -46,18 +48,21 @@ namespace DynamicLinqWithEfCoreTest
             }
 
             Console.WriteLine(sw.Elapsed);
+
             sw.Restart();
 
-            for (var i = 0; i <= 100_000; i++)
+            for (var i = 0; i < num; i++)
             {
                 using (var context = new TestContext())
                 {
-                    var set = context.Set<Person>().Where($"$.Age==@0 and $.Name==@1", 1, "tom").ToList();
+                    var set = context.Set<Person>().Where("$.Age==@0 and $.Name==@1", 1, "tom").ToList();
                 }
             }
 
             Console.WriteLine(sw.Elapsed);
-            Console.ReadLine();
+
+            //Console.WriteLine("Press any key to quit");
+            //Console.ReadKey();
         }
     }
 
